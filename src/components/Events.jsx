@@ -88,7 +88,7 @@ const Events = () => {
             <div class="grid md:grid-cols-3 grid-cols-2 gap-4 md:w-[50%] sm:w-[100%] h-50">
 
                   {eventList.map((item,index)=>(
-                             <a href={`/event/${item.code}`} key={index} class={`whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 ${colors[index%6]} text-white rounded-lg px-4 flex flex-col items-center justify-center`}>
+                             <a href={`/${item.code}`} key={index} class={`whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 ${colors[index%6]} text-white rounded-lg px-4 flex flex-col items-center justify-center`}>
                              {item.name}
                              </a>                                                                                                                                                                                                                                                      
                   ))}
