@@ -76,19 +76,19 @@ const Events = () => {
   ]
        
     return (
-        <div class="bg-[#0d1117] text-white min-h-screen p-12">
-            <h1 class="text-6xl font-bold mb-4">Parampra 2024 Technical Events </h1>
+        <div className="bg-[#0d1117] text-white min-h-screen p-12">
+            <h1 className="text-6xl font-bold mb-4">Parampra 2024 Technical Events </h1>
             <h1 className='text-2xl'>(For Internal Participants)</h1>
-            <p class="text-xl mb-12">
+            <p className="text-xl mb-12">
                 It is a community effort to create roadmaps, guides and other educational content to help guide
                 developers in picking up a path and guide their learnings.
             </p>
 
          <div className='flex justify-center'>
-            <div class="grid md:grid-cols-3 grid-cols-2 gap-4 md:w-[50%] sm:w-[100%] h-50">
+            <div className="grid md:grid-cols-3 grid-cols-2 gap-4 md:w-[50%] sm:w-[100%] h-50">
 
                   {eventList.map((item,index)=>(
-                             <a href={`/${item.code}`} key={index} class={`whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 ${colors[index%6]} text-white rounded-lg px-4 flex flex-col items-center justify-center`}>
+                             <a href={`/${item.code}`} key={index} className={`whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 ${colors[index%6]} text-white rounded-lg px-4 flex flex-col items-center justify-center`}>
                              {item.name}
                              </a>                                                                                                                                                                                                                                                      
                   ))}
