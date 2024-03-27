@@ -17,36 +17,36 @@ const Events = () => {
     {
         name:"Code Debugging",
         link:"",
-        code:14
+        code:2
       },
     {
         name:"Mind Bend(Riddles)",
-        code:2
+        code:3
     },
     {
         name:"Science Exibition",
         link:"",
-        code:3
+        code:4
     },
     {
         name:"Need for speed",
         link:"",
-        code:4
+        code:5
     },
     {
         name:"Robo War",
         link:"",
-        code:5
+        code:6
     },
     {
         name:"Bridge Kriti",
         link:"",
-        code:6
+        code:7
     },
     {
         name:"Graphics Design",
         link:"",
-        code:7
+        code:8
     },
     {
         name:"Visual Vista",
