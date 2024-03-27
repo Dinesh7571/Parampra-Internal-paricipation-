@@ -29,10 +29,9 @@ This project is aimed at facilitating internal participation within Parampra thr
     ```bash
     yarn
     ```
+4. Now run it:
+    ```bash
+    npm run dev
+    ```
 
-## Usage
 
-### Development
-To run the project in development mode, execute:
-```bash
-npm run dev
