@@ -306,6 +306,30 @@
                 "Fair Play Enforcement:- If any team is found to be using unfair means, they will be immediately disqualified from the game.",
                 "Team Size Requirement:- Minimum:- 3 members Maximum:- 4 members"
             ]
+        },
+        {
+            "name": "Code Debugging",
+            "VENUE": "",
+            "DATE": "",
+            "TIMING": "",
+            "Winning_Prize": "Certificate of Merit & ₹1500 for winner ₹1000 for runner up ",
+            "COORDINATER": "Mr. Vijendra Pratap Singh (CS), Mr. Ram Kumar Maurya( TA CSE)",
+            "HEAD": "Achintya Srivastava (CSE,4th) (9695047580) , Ansh kumar (CSE,3rd) (8795747378) , OM Panday (CSE,3rd) (7236097014)",
+            "CO_HEAD": "Akash pal (CSE,2nd) (6393968458), Vansh Jaiswal (CSE, 2nd) (6386169658) ",
+            "About_Event": "This is an event in which pacticipants will have to find bugs in code , there will be two rounds in this event.",
+            "link": "///",
+            "rulesArray": [
+                "The final decision rests with the coordinator. Disputing the coordinator's decision may result in disqualification.",
+                "The organizer's judgment is conclusive in all circumstances.",
+                "Participants must maintain discipline during the event. Any misconduct towards faculty, coordinators, or organizers is unacceptable and may lead to disqualification.",
+                "Participants arriving late to the event venue will be disqualified.",
+                "Fair Play:- All participants must adhere to the rules of fair play, refraining from cheating or seeking unfair advantages.",
+                "Everyone should have an equal opportunity to solve the bugs without outside assistance (can not use smart phones).",
+                
+                "The event consists of 1 preliminary rounds followed by a final round.",
+                "Fair Play Enforcement:- If any team is found to be using unfair means, they will be immediately disqualified from the game.",
+                
+            ]
         }
     ]
 }
