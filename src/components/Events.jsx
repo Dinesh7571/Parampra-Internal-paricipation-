@@ -2,49 +2,46 @@ import React from 'react'
 
 const Events = () => {
 
-    const colors=["bg-blue-500","bg-red-500","bg-purple-500","bg-yellow-500","bg-green-500","bg-orange-500"]
+  const colors=["bg-blue-500","bg-red-500","bg-purple-500","bg-yellow-500","bg-green-500","bg-orange-500"]
       
   const eventList=[
     {
-        name:"Code Debugging",
+        name:"Medi-Quest",
         code:0    
     },
+    
     {
-        name:"Code Monk",
+        name:"Web Stack",
         code:1
     },
     {
-        name:"Web Stack",
+        name:"Mind Bend(Riddles)",
         code:2
     },
     {
-        name:"Mind Bend(Riddles)",
-        code:3
-    },
-    {
-        name:"Battle of Brain",
+        name:"Science Exibition",
         link:"",
-        code:4
+        code:3
     },
     {
         name:"Need for speed",
         link:"",
-        code:5
+        code:4
     },
     {
         name:"Robo War",
         link:"",
-        code:6
+        code:5
     },
     {
         name:"Bridge Kriti",
         link:"",
-        code:7
+        code:6
     },
     {
         name:"Graphics Design",
         link:"",
-        code:8
+        code:7
     },
     {
         name:"Visual Vista",
@@ -77,11 +74,10 @@ const Events = () => {
        
     return (
         <div className="bg-[#0d1117] text-white min-h-screen p-12">
-            <h1 className="text-6xl font-bold mb-4">Parampra 2024 Technical Events </h1>
-            <h1 className='text-2xl'>(For Internal Participants)</h1>
+            <h1 className="text-6xl font-bold mb-4">Parampara 2024 Technical Events </h1>
+            {/* <h1 className='text-2xl'>()</h1> */}
             <p className="text-xl mb-12">
-                It is a community effort to create roadmaps, guides and other educational content to help guide
-                developers in picking up a path and guide their learnings.
+                College annual fest registratinon platform to provide clear view of all events
             </p>
 
          <div className='flex justify-center'>
