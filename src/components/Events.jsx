@@ -15,6 +15,11 @@ const Events = () => {
         code:1
     },
     {
+        name:"Code Debugging",
+        link:"",
+        code:14
+      },
+    {
         name:"Mind Bend(Riddles)",
         code:2
     },
@@ -68,6 +73,7 @@ const Events = () => {
         link:"",
         code:13
     },
+    
     
    
   ]
