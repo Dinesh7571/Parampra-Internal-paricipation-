@@ -33,5 +33,6 @@ This project is aimed at facilitating internal participation within Parampra thr
     ```bash
     npm run dev
     ```
-
+##Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
